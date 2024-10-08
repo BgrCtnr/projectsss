@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgi Bankası</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href=""><img src="img/sss-letter-original-monogram-logo-260nw-1714051534.webp" alt="Logo"></a>
+        </div>
+        <h1><a href="index.html">BİLGİ BANK</a></h1>
+        <a href="iletisim.html" class="link-button" target="_blank">İletişim</a>
+    </header>
+
+    <div class="navbar">
+        <div class="search-bar">
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Arama yap...">
+                <button type="submit">Ara</button>
+            </form>
+        </div>
+    </div>
+
+
+    <main>
+        <aside>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" onclick="showContent('content1', this)">Anasayfa</a></li>
+                    <li><a href="#" onclick="showContent('content2', this)">SSS</a></li>
+                    <li><a href="#" onclick="showContent('content3', this)">Hakkımızda</a></li>
+                    <li><a href="#" onclick="showContent('content4', this)">İletişim</a></li>
+                    <li><a href="#" onclick="showContent('content5', this)">Kariyer</a></li>
+                    <li><a href="#" onclick="showContent('content6', this)">Boş Menü1</a></li>
+                    <li><a href="#" onclick="showContent('content7', this)">Boş Menü2</a></li>
+                    <li><a href="#" onclick="showContent('content8', this)">Boş Menü3</a></li>
+                </ul>
+            </nav>
+            <div class="side-button">
+                <a href="https://wa.me/+905331273034" target="_blank">LİNK BUTTON<i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <p>© 2024</p>
+        </aside>
+
+
+
+        <section class="faq-list">
+            <div id="content1" class="faq-content" style="display:none;">
+
+                <!-- Menü 1 / İçerik 1  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 1 / İçerik 2  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner3.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem at est quo
+                                voluptate sint ipsa architecto sunt aspernatur, quasi praesentium qui vel nisi ab eos
+                                voluptatem reprehenderit iusto ut provident perferendis sed. Numquam, dolore doloremque.
+                                Facere nulla aliquam excepturi quam dignissimos quos fugit officia natus obcaecati
+                                perspiciatis sint, labore esse ratione recusandae modi commodi vero repudiandae! Impedit
+                                animi neque commodi? Vel doloremque beatae ea, eveniet blanditiis exercitationem
+                                consequatur voluptatem tenetur nesciunt sequi commodi. Fuga quas nemo hic atque
+                                praesentium accusamus officiis deserunt! Vel, natus. Voluptas, ratione? Eos ea provident
+                                fugit tenetur repudiandae quasi, odio et sapiente quisquam, dolor explicabo esse sunt
+                                labore rem! Dolore qui hic nisi, assumenda sed vero pariatur illum suscipit doloremque
+                                ea necessitatibus quia minima repudiandae soluta maxime quos sequi dicta eveniet.
+                                Ducimus earum impedit inventore ullam culpa quo repudiandae. Quibusdam commodi
+                                laudantium recusandae alias dolorum? Optio modi officiis quaerat, rerum ipsam
+                                repellendus laborum esse omnis iste culpa commodi eos! Iure amet saepe temporibus
+                                voluptas totam ipsa omnis ipsam? Neque aut repudiandae culpa non dolor vitae! Incidunt a
+                                iure optio ullam laboriosam, similique possimus nemo fugiat delectus tenetur at non
+                                dolore aperiam assumenda rem officia voluptates quas illum quod adipisci quidem ducimus
+                                quisquam iste. Earum, excepturi autem non vero, error unde sapiente facere quam sit
+                                iusto animi deserunt provident corporis! Aliquam dolorem quas aliquid veniam nisi ex,
+                                dolorum cum quam nobis fugit provident a molestiae, perspiciatis similique laborum ipsam
+                                ea animi! Quae, voluptate laudantium? Pariatur accusamus earum corrupti inventore
+                                voluptates aut libero placeat recusandae ipsam at excepturi rerum suscipit iusto, velit
+                                itaque ex provident nesciunt maiores consequatur? Ut voluptatibus sit, totam consectetur
+                                sapiente, placeat inventore veniam similique modi iste magnam rerum necessitatibus
+                                perspiciatis? Excepturi eum est blanditiis corrupti laborum suscipit maiores nemo,
+                                cumque voluptas repudiandae quidem ducimus ea eveniet neque laudantium odit expedita
+                                explicabo vitae aperiam. Culpa at, mollitia veritatis inventore ipsa error, dolore fugit
+                                quae repellendus fugiat impedit alias nostrum blanditiis nesciunt eveniet maxime debitis
+                                nihil, incidunt asperiores aliquid beatae neque accusamus? Aliquam ab autem consectetur
+                                facilis? Ab voluptatum autem aliquam? Odit atque inventore libero, nesciunt impedit
+                                deserunt magni. Accusamus labore, praesentium natus neque nostrum delectus minima qui a
+                                ipsa recusandae, nesciunt perferendis aut enim ullam, consequuntur sed itaque mollitia.
+                                Deleniti error iusto reiciendis doloremque ad, excepturi asperiores voluptatum est dolor
+                                maiores cupiditate omnis exercitationem quia adipisci culpa autem aspernatur quasi
+                                illum? Repellendus placeat libero tempore ipsum, quam deleniti perspiciatis, voluptatum,
+                                eum animi dolore sunt!</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 1 / İçerik 3  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 1 / İçerik 4  -->
+                <div class="icerik">
+                    <h2>Bugra</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem bgr alp ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 1 / İçerik 5  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 1 / İçerik 6  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 1 / İçerik 7  -->
+                <div class="icerik">
+                    <h2>Bugra</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem bgr alp ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 1 / İçerik 8  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 1 / İçerik 9  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!-- menü 2 içerikleri -->
+            <div id="content2" class="faq-content" style="display:none;">
+
+
+
+                <!-- Menü 2 / İçerik 1  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 2 / İçerik 2  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+                <!-- Menü 2 / İçerik 3  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <!-- menü 3 içerikleri -->
+            <div id="content3" class="faq-content" style="display:none;">
+
+
+
+
+                <!-- Menü 3 / İçerik 1  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner3.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem at est quo
+                                voluptate sint ipsa architecto sunt aspernatur, quasi praesentium qui vel nisi ab eos
+                                voluptatem reprehenderit iusto ut provident perferendis sed. Numquam, dolore doloremque.
+                                Facere nulla aliquam excepturi quam dignissimos quos fugit officia natus obcaecati
+                                perspiciatis sint, labore esse ratione recusandae modi commodi vero repudiandae! Impedit
+                                animi neque commodi? Vel doloremque beatae ea, eveniet blanditiis exercitationem
+                                consequatur voluptatem tenetur nesciunt sequi commodi. Fuga quas nemo hic atque
+                                praesentium accusamus officiis deserunt! Vel, natus. Voluptas, ratione? Eos ea provident
+                                fugit tenetur repudiandae quasi, odio et sapiente quisquam, dolor explicabo esse sunt
+                                labore rem! Dolore qui hic nisi, assumenda sed vero pariatur illum suscipit doloremque
+                                ea necessitatibus quia minima repudiandae soluta maxime quos sequi dicta eveniet.
+                                Ducimus earum impedit inventore ullam culpa quo repudiandae. Quibusdam commodi
+                                laudantium recusandae alias dolorum? Optio modi officiis quaerat, rerum ipsam
+                                repellendus laborum esse omnis iste culpa commodi eos! Iure amet saepe temporibus
+                                voluptas totam ipsa omnis ipsam? Neque aut repudiandae culpa non dolor vitae! Incidunt a
+                                iure optio ullam laboriosam, similique possimus nemo fugiat delectus tenetur at non
+                                dolore aperiam assumenda rem officia voluptates quas illum quod adipisci quidem ducimus
+                                quisquam iste. Earum, excepturi autem non vero, error unde sapiente facere quam sit
+                                iusto animi deserunt provident corporis! Aliquam dolorem quas aliquid veniam nisi ex,
+                                dolorum cum quam nobis fugit provident a molestiae, perspiciatis similique laborum ipsam
+                                ea animi! Quae, voluptate laudantium? Pariatur accusamus earum corrupti inventore
+                                voluptates aut libero placeat recusandae ipsam at excepturi rerum suscipit iusto, velit
+                                itaque ex provident nesciunt maiores consequatur? Ut voluptatibus sit, totam consectetur
+                                sapiente, placeat inventore veniam similique modi iste magnam rerum necessitatibus
+                                perspiciatis? Excepturi eum est blanditiis corrupti laborum suscipit maiores nemo,
+                                cumque voluptas repudiandae quidem ducimus ea eveniet neque laudantium odit expedita
+                                explicabo vitae aperiam. Culpa at, mollitia veritatis inventore ipsa error, dolore fugit
+                                quae repellendus fugiat impedit alias nostrum blanditiis nesciunt eveniet maxime debitis
+                                nihil, incidunt asperiores aliquid beatae neque accusamus? Aliquam ab autem consectetur
+                                facilis? Ab voluptatum autem aliquam? Odit atque inventore libero, nesciunt impedit
+                                deserunt magni. Accusamus labore, praesentium natus neque nostrum delectus minima qui a
+                                ipsa recusandae, nesciunt perferendis aut enim ullam, consequuntur sed itaque mollitia.
+                                Deleniti error iusto reiciendis doloremque ad, excepturi asperiores voluptatum est dolor
+                                maiores cupiditate omnis exercitationem quia adipisci culpa autem aspernatur quasi
+                                illum? Repellendus placeat libero tempore ipsum, quam deleniti perspiciatis, voluptatum,
+                                eum animi dolore sunt!</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 3 / İçerik 2  -->
+                <div class="icerik">
+                    <h2>Bugra</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner4.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem bgr alp ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Menü 3 / İçerik 3  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 3 / İçerik 4  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Menü 3 / İçerik 5  -->
+                <div class="icerik">
+                    <h2>Anasayfa İçeriği</h2>
+                    <div class="icerik-resmi">
+                        <img src="img/Banner2.png" alt="Anasayfa İçeriği">
+                    </div>
+                    <div class="icerik-metni">
+                        <p class="on-yazi">Bu, içerik hakkında kısa bir açıklama metnidir. Daha fazla bilgi için "Daha
+                            Fazla İçerik Gör" bağlantısına tıklayabilirsiniz.</p>
+                        <a href="#" onclick="toggleContent(event, this)" class="daha-fazla">Daha fazla içerik gör</a>
+                        <div class="detay" style="display: none;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam natus impedit
+                                doloremque reiciendis ipsa enim quia officia possimus quos ab autem similique soluta
+                                sapiente magnam, nemo deserunt asperiores. Qui perspiciatis neque alias exercitationem,
+                                labore facere ipsum illo consequatur officiis, nemo corrupti, quo ullam nobis.</p>
+                        </div>
+                        <!-- Geri Tuşu -->
+                        <button class="back-button" onclick="goBack(event, this)" style="display: none;">Geri</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+            <div id="content4" class="faq-content" style="display:none;">
+                <!-- menü 4 içerikleri -->
+            </div>
+
+
+
+            <div id="content5" class="faq-content" style="display:none;">
+                <!-- menü 5 içerikleri -->
+            </div>
+
+
+
+            <div id="content6" class="faq-content" style="display:none;">
+                <!-- menü 6 içerikleri -->
+            </div>
+
+
+
+            <div id="content7" class="faq-content" style="display:none;">
+                <!-- menü 7 içerikleri -->
+            </div>
+
+            <div id="content8" class="faq-content" style="display:none;">
+
+                <!-- menü 8 içerikleri -->
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <script src="scripts.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
